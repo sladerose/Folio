@@ -1,38 +1,24 @@
-# Project Brief: One-Link Pitch Room
+# README
 
-## Overview
-**One-Link Pitch Room** is a tool designed to solve "information scatter" by allowing users to curate and share a professional, single-page presentation of documents and links. It aligns with the "37signals philosophy": simple, high-utility, CRUD-based, and minimal JavaScript.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Core Value Proposition
-> "I upload a few things, I get a private link, and I see when they look at it."
+Things you may want to cover:
 
-## Technical Stack
-- **Backend**: Ruby on Rails 7+
-- **Frontend**: Hotwire (Turbo & Stimulus)
-- **Database**: SQLite / PostgreSQL (Default Rails)
-- **Styling**: TBD (likely Tailwind or simple CSS per user preference, but sticking to "Basecamp" often implies custom or utility-first)
-- **Philosophy**: Minimal heavy client-side logic. "The Basecamp Way".
+* Ruby version
 
-## MVP Features
+* System dependencies
 
-### 1. The Room Creator
-- **Function**: A simple form to create a new "Room" (e.g., "Proposal for Acme Inc").
-- **Output**: A new dashboard view for the creator to manage the room.
+* Configuration
 
-### 2. The Content Stack
-- **Documents**: Upload PDFs (Proposals, Contracts).
-- **Links**: Embed or list external URLs (Calendly, Loom, Figma, etc.).
-- **Mechanism**: Turbo Streams for instant updates without page reloads.
+* Database creation
 
-### 3. The Public View ("Live View")
-- **Access**: A read-only, professional landing page for the recipient.
-- **Security**: Accessed via **Unique Tokenized URLs** (e.g., `app.com/p/8j3f-92kd-kdk8`) rather than user accounts for recipients.
+* Database initialization
 
-### 4. The "Ping" (Analytics)
-- **Function**: Simple tracking of when the room was accessed.
-- **Feedback**: A "Last Viewed" timestamp or email notification for the sender.
+* How to run the test suite
 
-## Architecture Highlights
-- **No Client Auth**: Recipients do not log in.
-- **Sender Auth**: Standard Devise or manually built auth for the room creator.
-- **File Storage**: ActiveStorage for PDF uploads.
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

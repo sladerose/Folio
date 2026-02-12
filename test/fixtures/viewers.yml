@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  room: one
+  accessed_at: 2026-02-12 07:35:26
+  ip_address: MyString
+  user_agent: MyString
+
+two:
+  room: two
+  accessed_at: 2026-02-12 07:35:26
+  ip_address: MyString
+  user_agent: MyString

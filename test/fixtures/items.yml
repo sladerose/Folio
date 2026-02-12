@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  position: 1
+  itemable: one
+  itemable_type: Itemable
+  room: one
+
+two:
+  position: 1
+  itemable: two
+  itemable_type: Itemable
+  room: two
