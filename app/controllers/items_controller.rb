@@ -43,7 +43,7 @@ class ItemsController < ApplicationController
   end
 
   def item_params
-    params.require(:item).permit(:position)
+    params.fetch(:item, {}).permit(:position)
   end
 
   def link_params
